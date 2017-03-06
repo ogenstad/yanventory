@@ -1,0 +1,39 @@
+env:
+  class: string
+  allowed:
+    - production
+    - dev
+    - testing
+    - preprod
+
+operating_system:
+  class: string
+
+ansible_python_interpreter:
+  class: string
+
+
+snmp_contact:
+  class: string
+
+
+ipv4:
+  class: ipv4_address
+
+vendor:
+  class: string
+
+site_id:
+  class: string
+
+type:
+  class: string
+
+groups:
+  class: groups
+
+parents:
+  class: parents
+
+nodes:
+  class: nodes

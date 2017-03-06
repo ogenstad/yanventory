@@ -1,0 +1,9 @@
+---
+- hosts: all
+  connection: local
+  gather_facts: false
+
+  tasks:
+    - name: Debug
+      debug:
+        msg: "{{ hostvars[inventory_hostname] }}"

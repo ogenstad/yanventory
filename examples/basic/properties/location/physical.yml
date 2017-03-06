@@ -1,0 +1,6 @@
+longitude:
+  class: string
+latitude:
+  class: string
+location:
+  class: string

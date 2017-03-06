@@ -1,0 +1,4 @@
+operating_system: windows
+ipv4: 10.10.30.152
+groups: servers
+env: testing

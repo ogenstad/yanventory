@@ -1,0 +1,43 @@
+defaults:
+  properties:
+    env: production
+    snmp_contact: NOC
+    ansible_python_interpreter: '/usr/bin/env python'
+    groups:
+      - everything
+      - all_the_things
+
+nodes:
+  servers:
+    required_properties:
+      - operating_system
+      - ipv4
+
+  switches:
+    required_properties:
+      - operating_system
+      - vendor
+
+groups:
+  servers: {}
+  network_base: {}
+  network:
+    required_properties:
+      - location
+
+containers:
+  site:
+    required_properties:
+      - site_id
+      - longitude
+      - latitude
+    apply: nodes
+    mapping:
+      - node_name:
+          split:
+            rule: "-"
+            index: 0
+
+properties:
+  general: {}
+  location: {}

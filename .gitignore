@@ -1,0 +1,8 @@
+.tox/
+dist/
+__pycache__
+.cache
+*.egg-info/
+*.pyc
+.coverage
+.idea/

@@ -1,0 +1,6 @@
+location: stockholm
+parents:
+  - access_switches
+nodes:
+  - sth-sw-01
+  - sth-sw-02
