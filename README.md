@@ -57,7 +57,6 @@ y = Yanventory(yml_source='examples/basic/yanventory.yml')
 inv = y.ansible_inventory()
 print(json.dumps(inv, indent=4, sort_keys=True))
 
-$ python y_trying.py
 {
     "_meta": {
         "hostvars": {
