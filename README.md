@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/ogenstad/yanventory.svg?branch=develop)](https://travis-ci.org/ogenstad/yanventory)
+[![Saythanks](https://img.shields.io/badge/Say%20Thanks!-%F0%9F%A6%89-1EAEDB.svg)](https://saythanks.io/to/ogenstad)
+
 
 Yanventory
 ==========
